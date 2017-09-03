@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>CheckboxInfo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+
+  <ion-item>
+    <ion-label floating>I have to do...</ion-label>
+    <ion-input type="text" [(ngModel)] = "item"></ion-input>
+  </ion-item>
+
+  <button ion-button block (click) = "submitInfo()">Submit</button>
+
+</ion-list>
+
+</ion-content>
