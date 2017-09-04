@@ -11,9 +11,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content ng-app = "FirstApp" ng-controller = "checkboxCtrl" padding>
-  <ion-item>
-    <ion-label>Checkbox 1</ion-label>
+<ion-content padding>
+  <ion-item *ngFor = "let item of items">
+    <ion-label>{{item}}</ion-label>
     <ion-checkbox></ion-checkbox>
   </ion-item>
 </ion-content>
