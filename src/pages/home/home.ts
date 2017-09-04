@@ -9,8 +9,10 @@ import { CheckboxInfoPage } from '../checkbox-info/checkbox-info';
 
 export class HomePage {
 
+  items: string[] = ["Checkbox 1", "Checkbox 2", "Third"];
+
   constructor(public navCtrl: NavController, public navParam: NavParams) {
-    alert(this.navParam.get('addItem'));
+    // alert(this.navParam.get('addItem'));
   }
 
   onAddClick() {

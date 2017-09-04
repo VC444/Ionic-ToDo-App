@@ -19,7 +19,7 @@ export class CheckboxInfoPage {
   }
 
   submitInfo() {
-    this.navCtrl.push(HomePage, {
+    this.navCtrl.setRoot(HomePage, {
       addItem: this.item
     });
   }
