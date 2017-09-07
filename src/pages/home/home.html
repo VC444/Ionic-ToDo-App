@@ -11,9 +11,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <ion-item *ngFor = "let item of items">
-    <ion-label>{{item}}</ion-label>
+<ion-content ng-app = "FirstApp" ng-controller = "ToDoCtrl" padding>
+  <ion-item *ngFor = "let item of items | async">
+    <ion-label>{{item.$value}}</ion-label>
     <ion-checkbox></ion-checkbox>
   </ion-item>
 </ion-content>
