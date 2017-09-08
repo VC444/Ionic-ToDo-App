@@ -12,12 +12,12 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 var firebaseConfig = {
-    apiKey: "AIzaSyAL3x_1JVrQ4wpGhPh-1Zyg8NNsHEqnI58",
-    authDomain: "firstionicapp-4e4da.firebaseapp.com",
-    databaseURL: "https://firstionicapp-4e4da.firebaseio.com",
-    projectId: "firstionicapp-4e4da",
-    storageBucket: "firstionicapp-4e4da.appspot.com",
-    messagingSenderId: "772301789477"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
   };
 
 @NgModule({
