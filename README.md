@@ -4,18 +4,30 @@ Optimized Material Design for Android devices, and IOS native feel for Apple dev
 
 ## How To Use
 
-#### Install Node.js and npm
+* Install Node.js and npm
 
-### Install Apache Cordova and Ionic
+* Install Apache Cordova and Ionic
 
 ```bash
 npm install -g cordova ionic
 ```
-#### Clone the repo <br>
+* Clone the repo <br>
 
-#### Head over to src/app/app.module.ts and enter your own info for firebaseConfig.
+* Head over to src/app/app.module.ts and enter your own info for firebaseConfig.
+  * To get Firebase info, create a project in Google Firebase and select "Add Firebase to your web app".
 
-### Run the app
+```bash
+var firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+  };
+  ```
+
+* Run the app
 
 ```bash
 ionic serve
